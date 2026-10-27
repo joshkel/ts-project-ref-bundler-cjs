@@ -1,0 +1,14 @@
+{
+  "name": "ts-project-ref-bundler-cjs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b app"
+  },
+  "dependencies": {
+    "dual": "file:./dual"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  }
+}

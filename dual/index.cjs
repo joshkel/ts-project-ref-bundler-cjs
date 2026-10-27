@@ -1,0 +1,1 @@
+exports.makeBox = () => ({ format: "cjs" });

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "strict": true,
+    "paths": { "lib/*": ["../lib/src/*"] }
+  },
+  "include": ["src"],
+  "references": [{ "path": "../lib" }]
+}
